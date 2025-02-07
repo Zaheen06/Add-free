@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ad-Free YouTube Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ad-Free YouTube Player</h1>
+
+  <!-- Video Container -->
+  <div class="video-container">
+    <iframe id="youtubePlayer" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1&autoplay=0&controls=1" allowfullscreen></iframe>
+  </div>
+
+  <!-- Input Field for Video URL -->
+  <div class="input-container">
+    <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL">
+    <button onclick="loadVideo()">Play Video</button>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
